@@ -57,7 +57,17 @@
               "node_modules/primeng/resources/primeng.min.css",
               "node_modules/primeflex/primeflex.scss",
               "node_modules/primeicons/primeicons.css",
-              "src/themes/main-theme.css"
+              "src/themes/main-theme.css",
+              {
+                "input": "src/themes/light.css",
+                "bundleName": "light",
+                "inject": true
+              },
+              {
+                "input": "src/themes/dark.css",
+                "bundleName": "dark",
+                "inject": false
+              }
             ],
             "scripts": []
           },

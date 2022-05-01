@@ -1,0 +1,21 @@
+<div class="pt-3 pb-1 subHeader">
+    <div>
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label p-input-icon-right w-full">
+                <i class="pi pi-search"></i>
+                <input type="text" id="search" pInputText [(ngModel)]="search" class="w-full" maxlength="30">
+                <label for="search">Search</label>
+            </span>
+        </div>
+    </div>
+</div>
+<section>
+
+</section>
+
+<section>
+    <div class="flex justify-content-center align-content-center">
+        <p-paginator [rows]="10" [totalRecords]="100"></p-paginator>
+
+    </div>
+</section>
